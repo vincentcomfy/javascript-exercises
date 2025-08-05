@@ -9,7 +9,28 @@
 
 // Add your code right below, good luck!
 
+// ## Step 3: Optimize
+// You will edit your code to make it easier to read using the following instructions:
 
+// 1. Create 2 new variables: `fullName` and `age`
+// - Do NOT simply type the full name and age into the new variables
+// - Instead, use the pre-existing variables, with the calculations that are currently inside of `greeting`
+
+// 2. Edit the `greeting` string to use `fullName` and `age` instead of the other 4 variables
+// - `greeting` should look something like:
+// ```js
+// "Hello! My name is " + fullName
+// ```
+
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1947;
+
+const fullName = firstName + " " + lastName;
+const age = thisYear - birthYear;
+
+const greeting = "Hello! My name is " + fullName +" and I am " + age + " years old."
 
 
 
